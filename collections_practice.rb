@@ -35,4 +35,6 @@ end
 
 def sum_array(array)
   array.inject do |int|
-    int.sum_of
+    sum += int
+  end
+end
