@@ -39,5 +39,5 @@ end
 
 def add_s(array)
   array.each.collect do |element, index|
-    element = index == 1 
+    element = index 
 end
