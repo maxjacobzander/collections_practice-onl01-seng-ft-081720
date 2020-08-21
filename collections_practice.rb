@@ -40,6 +40,5 @@ end
 def add_s(array)
   array.collect do |element|
     return "#{element}s"
-    end
   end
 end
