@@ -43,5 +43,6 @@ def add_s(array)
       return "#{element}"
     else
       return "#{element}"+"s"
+    end
   end
 end
