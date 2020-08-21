@@ -38,12 +38,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each.collect do |element|
-    if array[1] == element
-      return element
-    else
-      return element +"s"
-    end
-  end
-  return array
+  array.each.collect do |element, index|
+    element = index == 1 
 end
