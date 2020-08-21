@@ -41,6 +41,8 @@ def add_s(array)
   array.collect do |item|
     if item != array[1]
       item << "s"
+    elsif item = array[1]
+      item
     end
   end
 end
