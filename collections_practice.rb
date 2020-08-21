@@ -39,6 +39,6 @@ end
 
 def add_s(array)
   array.each.collect do |element|
-    return "#{element}s"
+    return "#{element}"+"s"
   end
 end
