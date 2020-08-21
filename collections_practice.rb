@@ -39,6 +39,7 @@ end
 
 def add_s(array)
   array.each.with_index.collect do |element, index|
+    "#{element}s"
     end
   end
 end
