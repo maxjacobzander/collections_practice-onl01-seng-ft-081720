@@ -38,7 +38,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each.collect do |element, index|
+  array.collect do |element, index|
     index != 1 ? element << "s" : element
   end
 end
